@@ -302,6 +302,23 @@ a{
     background: var(--color-font-nav);
     margin-right: 0px;
 }
+.btn-home{
+    width: 60px;
+    height: 60px;
+    background: #03c5f59d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+}
+.btn-home a i{ 
+    color: #FFFFFF;  
+}
 .footer__apps img{
     width: 140px;
     margin-left: 10px;
